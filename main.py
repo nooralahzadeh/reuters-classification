@@ -77,7 +77,7 @@ if __name__ == "__main__":
     print("Precision: {:.4f}, Recall: {:.4f}, F1-measure: {:.4f}"
           .format(metrics['micro']['P'], metrics['micro']['R'], metrics['micro']['f1']))
     ####################################
-    print("Macro-Micro-average after filtering")
+    print("Macro-average after filtering")
     print("Precision: {:.4f}, Recall: {:.4f}, F1-measure: {:.4f}"
           .format(metrics['macro']['P'], metrics['macro']['R'], metrics['macro']['f1']))
 

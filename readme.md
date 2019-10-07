@@ -26,5 +26,5 @@ Example:
 `Micro-average : Precision: 0.9364, Recall: 0.8420, F1-measure: 0.8852`
 
 We have 120 topics and some of them have a very small training and testing instances.
-it seems considering N-most topics, yeilds a better performance in the Micro mode.
+it seems considering N-most topics, yeilds a better performance in the Macro mode.
 I am wondering, if we use doc2vec method and use CNN or LSTM model as a classifier, what would be the results?
