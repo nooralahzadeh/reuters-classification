@@ -23,7 +23,7 @@ Example:
 
 `Micro-average: Precision: 0.9654, Recall: 0.9215, F1-measure: 0.9429`
 
-`Micro-average : Precision: 0.9364, Recall: 0.8420, F1-measure: 0.8852`
+`Macro-average : Precision: 0.9364, Recall: 0.8420, F1-measure: 0.8852`
 
 We have 120 topics and some of them have a very small training and testing instances.
 it seems considering N-most topics, yeilds a better performance in the Macro mode.
