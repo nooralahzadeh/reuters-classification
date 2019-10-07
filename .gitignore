@@ -5,7 +5,7 @@ tmp-runs/
 *.py[cod]
 *$py.class
 logs/
-
+.idea/
 # C extensions
 *.so
 
